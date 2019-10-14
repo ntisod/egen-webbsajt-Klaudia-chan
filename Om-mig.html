@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <title>Om Klaudia K!</title>
 </head>
+<!--TL: Bra! Du verkar ha testat i html-validator. Den är dock inte perfekt, vilket gör att du behöver se över några ytterligare saker. I princip är det att undvika div och br, samt viktigast att lära dig hantera p-elementet. -->
 <body>
     <h1>Om Klauda K</h1>
     <!-- Det är min skoluppgift som jag har fått av min lärare, att skriva om mig själv, 2019 -->
     <!-- Här kommer jag att skriva om mig själv -->
-    <div id=introduction>
+    <div id=introduction><!--TL: Undvik att använda div. Placera hellre detta id i din h2-tagg nedan. -->
 
         <h2>Om mig - Klaudia K</h2>
-        <p>Hej! Jak heter <strong>Klaudia K</strong> och jag har tänkt mig att skaffa en sida om mig själv.<br />
-        Jag var född den 6 april 2002. Just nu går jag andra år i NTI gymnasiet Södertälje. Jag är en vanlig tjej som vill lära sig mycket om webbutveckling och programmering.<br/>
+        <p>Hej! Jak heter <strong>Klaudia K</strong> och jag har tänkt mig att skaffa en sida om mig själv.<br /><!--TL: Här bör du avsluta ditt p-element och påbörja ett nytt istället för att använda en radbrytning (<br>).-->
+        Jag var född den 6 april 2002. Just nu går jag andra år i NTI gymnasiet Södertälje. Jag är en vanlig tjej som vill lära sig mycket om webbutveckling och programmering.<br/><!--TL: Här bör du igen avsulta ditt p-element istället för br. -->
             <h3>Mina intresse!</h3>
-            <div id=mina_intresse>
+            <div id=mina_intresse><!--TL: Använd helst inte div. Använd istället ett nytt p-element. Byt ut dina br-element mot p-slut och ny p-början. -->
             Mina intresse förutom programmering och webbutveckling är datorspel, Anime (alltså egentligen jag är intresserad av allt som har med Japan o göra, som deras kultur och mat) och konståkning.
             Jag brukar ha mycket fritid, och då brukar jag göra det jag gillar mest.<br />
-            Jag alltså brukar bl.a. (OBS! om du väljer för att kolla på trailers, öppna länk i ny flik) 
+            Jag alltså brukar bl.a. (OBS! om du väljer för att kolla på trailers, öppna länk i ny flik) <!--TL: Du kan lägga in en parameter target="_blank" i din a-tagg för att länkarna ska öppnas i ett nytt fönster med automatik. -->  
             <ul>
                 <li>Stretcha</li>
                 <li>Spela datorspel</li>
