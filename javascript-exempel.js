@@ -7,5 +7,5 @@ function myFunction(){
     document.getElementById("demo").innerHTML = "Klaudia K";
 }
 function Funktion(){
-    document.getElementById('matbild').src = kebab.jpg;
+    document.getElementById('matbild').src = "kebab.jpg";
 }
