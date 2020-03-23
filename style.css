@@ -1,19 +1,25 @@
+
+*{
+    text-shadow: 2px 2px black;
+}
 h1, h2, h3{
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
     /* Jag valde just Verdana, eftersom jag tycker om denna teckensnitt och den syns mycket bättre på bakgrunden jag har valt.*/
-    color: rgb(153, 75, 206);
+    color: white;
 }
-p {
+p, ol, ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    max-width: 500px;
+    color: rgb(255, 255, 255);
 }
 
 
 body{
     font-size: 100%;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    background-image: url("moon.jpg");
+    background-image: url("cegielki.jpeg");
+    max-width:500px;
+    margin: auto;
 }
 html {
     text-align: center;

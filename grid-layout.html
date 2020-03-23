@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            
+
+            grid-gap:5px;
+        }
+        header{
+            border: 3px solid blueviolet;
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+        nav{
+            border: 3px solid blueviolet;
+            grid-row-start: 2;
+            grid-row-end: 20;
+        }
+        main{
+            border: 3px solid blueviolet;
+            grid-area: 2 / 4 / 10 / 2;
+            
+        }
+        aside{
+            border: 3px solid blueviolet;
+            grid-area: 2 / 4 /10 /6;
+            
+        }
+        .itemextra{
+            border: 3px solid blueviolet;
+            grid-area: 10 / 2/ 20 / 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>header</header>
+        <nav>nav</nav>
+        <main>main</main>
+        <aside>aside</aside>
+        <footer class="itemextra">footer</footer>
+    </div>
+
+    <footer> 
+    Källa: <a href="https://www.w3schools.com/css/css_grid.asp">w3schools</a>
+
+    </footer>
+</body>
+</html>
