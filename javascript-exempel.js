@@ -42,3 +42,16 @@ function math3(){
     var x2 = parseFloat(document.getElementById("num24").value);
     document.getElementById("svar4").value = x1 * x2;
 }
+function newInput(str) {
+    document.getElementById("inputten").value += str;
+}
+function calculate(){
+    var inputten = String(document.getElementById("inputten").value);
+    inputten=inputten.replace(/\^/g, "**");
+    inputten=inputten.replace(/√/g, "math.sqrt");
+    console.log(inputten);
+    document.getElementById("inputten").value = eval(inputten);
+}
+function oldInput(){
+    document.getElementById("inputten").value = "";
+}
