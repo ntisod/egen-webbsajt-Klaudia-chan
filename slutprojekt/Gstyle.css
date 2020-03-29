@@ -1,42 +1,44 @@
+/* TL: Jag vet inte helt varför, men rad 6 åtgärdar nog ditt problem. Du kan rensa bort den yttersta diven och lägga klassen i din body istället. Ifall du vill ha sidhuvud och meny kanske det blir bättre i ett main-element förstås. Du kan förkorta koden ytterligare en aning genom att använda elementet section istället för divar med klassen section. Du skulle i det här fallet kanske hellre använda olika id för var och en av dina sektioner. Se första exemplet (rad 21 nedan)*/
+
 body
 {
     margin: 0;
+    margin-top: -50px; /* Tobias tillägg */
     padding: 0;
-}
-.container
-{
     position: relative;
     width: 100%;
 }
-.container .section
+
+.container section
 {
     position: sticky;
     top: 0;
     width: 100%;
     height: 100vh;
-    background: #000;
+    color: #fff;
 }
-.container .section:nth-child(1)
+
+#ommig
 {
     background: url(https://i.pinimg.com/originals/af/24/3b/af243b40901bb7bd45de14ff0dea88bc.png);
     background-size: cover;
 }
-.container .section:nth-child(2)
+.container section:nth-child(2)
 {
     background: url(https://cdn1.cdnme.se/4190278/6-3/svensexa_och_aska_102_51f7d2b6e087c35c93a6fa54.jpg);
     background-size: cover;
 }
-.container .section:nth-child(3)
+.container section:nth-child(3)
 {
     background: url(https://www.gamereactor.se/media/54/_2865483b.jpg);
     background-size: cover;
 }
-.container .section:nth-child(4)
+.container section:nth-child(4)
 {
     background: url(https://example24297.files.wordpress.com/2018/02/maxresdefault.jpg?w=1200);
     background-size: cover;
 }
-.container .section:nth-child(5)
+.container section:nth-child(5)
 {
     background: url(https://cdn2.cdnme.se/4602114/8-3/20161226_182224_590b32ea9606ee1d10839354.jpg);
     background-size: cover;
