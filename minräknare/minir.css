@@ -1,0 +1,17 @@
+button{
+    width: 10vw;
+    height: 10vh;
+    font-size: 2em;
+    
+}
+input{
+    width: 40.65vw;
+    height: 10vh;
+    font-size: 2em;
+    color: salmon;
+    background: rgb(49, 27, 100);
+}
+section{
+    width: 40%;
+    margin: auto;
+}
