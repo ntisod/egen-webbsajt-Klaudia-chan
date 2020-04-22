@@ -81,7 +81,31 @@ a {
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #032ff4, #ff0090, #2ec5b1, #032ff4);
+    background: linear-gradient(90deg, #032ff4, #ff0090, #752ec5, #032ff4);
+    background-size: 400%;
+    border-radius: 30px;
+    animation: animate 8s linear infinite;
+}
+#regler a{
+    background: linear-gradient(90deg, #00a824, #00eeff, #2ec57f, #00a824);
+    background-size: 400%;
+    border-radius: 30px;
+    animation: animate 8s linear infinite;
+}
+#konst a{
+    background: linear-gradient(90deg, #032ff4, #00ffea, #c99aff, #032ff4);
+    background-size: 400%;
+    border-radius: 30px;
+    animation: animate 8s linear infinite;
+}
+#anime a{
+    background: linear-gradient(90deg, #171352, #f40303, #b0e056, #171352);
+    background-size: 400%;
+    border-radius: 30px;
+    animation: animate 8s linear infinite;
+}
+#bok a{
+    background: linear-gradient(90deg, #3c193f, #ff0090, #dc68ff, #3c193f);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
