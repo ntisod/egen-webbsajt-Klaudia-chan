@@ -4,7 +4,7 @@ function newInput(str) {
 function calculate(){
     var inputten = String(document.getElementById("inputten").value);
     inputten=inputten.replace(/\^/g, "**");
-    inputten=inputten.replace(/√/g, "math.sqrt");
+    inputten=inputten.replace(/√/g, "Math.sqrt");
     console.log(inputten);
     document.getElementById("inputten").value = eval(inputten);
 }

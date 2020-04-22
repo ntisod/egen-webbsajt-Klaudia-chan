@@ -86,14 +86,7 @@ a {
     border-radius: 30px;
     animation: animate 8s linear infinite;
 }
-.ommig a{
-    background: linear-gradient(90deg, #032ff4, #ff0090, #2ec5b1, #032ff4);
-    animation: animate 8s linear infinite;
-}
-.konst a{
-    background: linear-gradient(90deg, #033512, #ffffff, #97cf72, #033512);
-    animation: animate 8s linear infinite;
-}
+
 
 
 @keyframes animate{
