@@ -1,28 +1,53 @@
-
-*{
-    text-shadow: 2px 2px black;
+.blurred-bg-container{
+    background:url(paprotka.jpg) ;
+    height: 100vh;
+    background-size: cover;
 }
-h1, h2, h3{
-    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
-    /* Jag valde just Verdana, eftersom jag tycker om denna teckensnitt och den syns mycket bättre på bakgrunden jag har valt.*/
-    color: white;
+body,.blurred-bg-container .content h1{
+    margin: 0;
 }
-p, ol, ul {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: 500px;
-    color: rgb(255, 255, 255);
+.blurred-bg-container .content{
+    background: inherit;
+    width: 80%;
+    height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 0 32px tgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow:hidden;
+} 
+.blurred-bg-container .text{
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.3); 
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+     
 }
-
-
-body{
-    font-size: 100%;
-    font-weight: bold;
-    background-image: url("cegielki.jpeg");
-    max-width:500px;
-    margin: auto;
+.blurred-bg-container .blur{
+    background: inherit;
+    height: 100vh;
+    width: 166.667%;
+    position: absolute;
+    left:-7%;
+    top: 20%;
+    transform: translate(-10%, -30%);
+    filter: blur(20px);
+    z-index: -1;
 }
-html {
-    text-align: center;
+@media screen and (max-width: 1000px){
+    .blurred-bg-container .content{
+        height: 90%;
+        width: 85%;
+    }
+}
+img{
+    clip-path: circle(50%);
+}
+body {
+    background: black;
 }
 
 

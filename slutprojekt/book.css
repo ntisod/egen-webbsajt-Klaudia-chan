@@ -8,8 +8,8 @@ body,.blurred-bg-container .content h1{
 }
 .blurred-bg-container .content{
     background: inherit;
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     border-radius: 8px;
     box-shadow: 0 0 32px tgba(0,0,0,0.5);
     position: absolute;
@@ -23,10 +23,11 @@ body,.blurred-bg-container .content h1{
     background: rgba(255, 255, 255, 0.3); 
     height: 100%;
     box-sizing: border-box;
+    overflow: auto;
 }
 .blurred-bg-container .blur{
     background: inherit;
-    height: 100vh;
+    height: 130vh;
     width: 166.667%;
     position: absolute;
     left: 0;

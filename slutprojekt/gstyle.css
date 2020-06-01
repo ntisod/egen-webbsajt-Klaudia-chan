@@ -1,8 +1,10 @@
 
 
 h1, p{
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 
@@ -17,15 +19,14 @@ body .ommig .content h1{
 }
 .ommig .blur{
     background: inherit;
-    position: auto;
     height: 100vh;
     width: 166.667%;
     position: absolute;
     left: 0; 
     top: 0;
     transform: translate(-10%,-80%);
-    filter: blur(200px);
-    z-index: -1;
+    filter: blur(150px);
+    z-index:-1;
 }
 
 
@@ -40,6 +41,7 @@ body
     width: 100%;
     background: #000;
 }
+
 
 .container section
 {
@@ -73,37 +75,38 @@ a {
     height: 60px;
     text-align: center;
     line-height: 60px;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #032ff4, #ff0090, #752ec5, #032ff4);
+    background: linear-gradient(90deg, #169116, #945208, #38633c, #169116);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
 }
 #regler a{
-    background: linear-gradient(90deg, #00a824, #00eeff, #2ec57f, #00a824);
+    background: linear-gradient(90deg, #e096e2, #d47b7b, #d641a5, #e096e2);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
 }
 #konst a{
-    background: linear-gradient(90deg, #032ff4, #00ffea, #c99aff, #032ff4);
+    background: linear-gradient(90deg, #96aaff, #00ffea, #c99aff, #96aaff);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
 }
 #anime a{
-    background: linear-gradient(90deg, #171352, #f40303, #b0e056, #171352);
+    background: linear-gradient(90deg, #a12d2d, #ff733c, #e0d256, #a12d2d);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
 }
 #bok a{
-    background: linear-gradient(90deg, #3c193f, #ff0090, #dc68ff, #3c193f);
+    background: linear-gradient(90deg, #5b3e5c, #96704c, #863f3f, #5b3e5c);
     background-size: 400%;
     border-radius: 30px;
     animation: animate 8s linear infinite;
@@ -136,54 +139,29 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ommig
 {
-    background: url(om-mig-bakgrunden.jpg);
+    background: url(om-mig-mapp/paprotka.jpg);
     background-size: cover;
 }
 .container section:nth-child(2)
 {
-    background: url(lagarnas-bakgrunden.jpg);
+    background: url(mountains.png);
     background-size: cover;
 }
 .container section:nth-child(3)
 {
-    background: url(konstakning-bakgrund.jpg);
+    background: url(skates.png);
     background-size: cover;
 }
 .container section:nth-child(4)
 {
-    background: url(bok-bakgrunden.jpg);
+    background: url(brown-haired-female-anime-character-figure-164839.jpg);
     background-size: cover;
 }
 .container section:nth-child(5)
 {
-    background: url(anime-bakgrunden.jpg);
+    background: url(blur-book-stack-books-bookshelves-590493\ \(1\).jpg);
     background-size: cover;
 }
 

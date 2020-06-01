@@ -17,12 +17,13 @@ body,.blurred-bg-container .content h1{
     left: 30%;
     transform: translate(-50%,-50%);
     overflow:hidden;
-}
+} 
 .blurred-bg-container .text{
     padding: 16px;
     background: rgba(255, 255, 255, 0.3); 
     height: 100%;
     box-sizing: border-box;
+    overflow: auto;
 }
 .blurred-bg-container .blur{
     background: inherit;
@@ -34,4 +35,11 @@ body,.blurred-bg-container .content h1{
     transform: translate(-10%, -30%);
     filter: blur(20px);
     z-index: -1;
+}
+@media screen and (max-width: 1000px){
+    .blurred-bg-container .content{
+        height: 90%;
+        width: 85%;
+        left: 50%;
+    }
 }
