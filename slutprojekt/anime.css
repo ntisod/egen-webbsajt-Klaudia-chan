@@ -43,3 +43,9 @@ body,.blurred-bg-container .content h1{
         left: 50%;
     }
 }
+li{
+    margin: 50px;
+}
+p, li{
+    font-size: 20px;
+}

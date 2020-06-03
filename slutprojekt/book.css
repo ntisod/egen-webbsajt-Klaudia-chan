@@ -36,3 +36,9 @@ body,.blurred-bg-container .content h1{
     filter: blur(20px);
     z-index: -1;
 }
+p, li{
+    font-size: 20px;
+}
+li{
+    margin: 50px;
+}
